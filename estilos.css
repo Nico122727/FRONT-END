@@ -27,3 +27,33 @@ header .admin .navbar-nav{margin-left: 4.5%;}
 /*-----------------FIN HEADER-----------------------------------------------------------------------------------------*/
 
 
+
+/*-----------------CAROUSEL------------------------------------------------------------------------------------------*/
+
+/*Defino el tamaño de las imagenes*/
+.img-responsive{
+	min-height: 200px;
+	max-height: 500px;
+}
+/*Subo el carousel contra el navbar y defino el ancho*/
+ .carousel-1{margin-top: 0px;
+ 	margin-left: 5%;
+ 	margin-right: 5%;
+ }
+
+.carousel-indicators{margin-bottom: 1%;}/*Le doy un margen a los indicadores*/
+
+/*Cambio el color a los indicadores y los separo un poco entre ellos*/
+.carousel-indicators li{
+	background-color: #ecf42a;
+	margin-left: 2%;
+}
+/*-----------------FIN CAROUSEL--------------------------------------------------------------------------------------*/
+
+
+
+
+
+
+body {
+	background-color: #e0e0e0;}
