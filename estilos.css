@@ -1,0 +1,29 @@
+/*---------------------HEADER-----------------------------------------------------------------------------------------*/
+
+
+header .my-nav{background-color: #2f312e;}/*COLOR DE FONDO NAVBAR*/
+header .my-nav .navbar-brand{margin-left: 02%; color: #f3ed17;}/*LE DOY UN MARGEN A NB ELECTRONICA Y COLOR*/
+header .my-nav .navbar-brand:hover{color: white;}/*COLOR DE NB ELECTRONICA CUANDO PASO CON EL MOUSE*/
+header .my-nav .nav-link{color: grey;}/*COLOR DEL MENU CUANDO NO ESTA ACTIVO*/
+header .my-nav .nav-link:hover{color: white;}/*COLOR DEL MENU CUANDO PASO CON EL MOUSE*/
+header .my-nav .active{color: white;} /*COLOR DEL MENU CUANDO ESTA SELECCIONADO*/
+header .my-nav .fa-battle-net{margin-right: 06%;}/*LE DOY MARGEN ENTRE EL ICONO Y NB ELECTRONICA*/
+
+
+/*Agrego el botón del navbar porque al editar los colores se oculta*/
+.custom-toggler.navbar-toggler{border-color: white;}
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,0, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+
+/*Separo un poco los botones del menu*/
+header  .home .navbar-nav{margin-left:  03.5%;} 
+
+header .login .navbar-nav{margin-left: 2.5%;}
+
+header .admin .navbar-nav{margin-left: 4.5%;}
+
+/*-----------------FIN HEADER-----------------------------------------------------------------------------------------*/
+
+
