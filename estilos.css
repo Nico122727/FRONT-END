@@ -33,7 +33,7 @@ header .admin .navbar-nav{margin-left: 4.5%;}
 /*Defino el tamaño de las imagenes*/
 .img-responsive{
 	min-height: 200px;
-	max-height: 500px;
+	max-height: 450px;
 }
 /*Subo el carousel contra el navbar y defino el ancho*/
  .carousel-1{margin-top: 0px;
@@ -50,9 +50,88 @@ header .admin .navbar-nav{margin-left: 4.5%;}
 }
 /*-----------------FIN CAROUSEL--------------------------------------------------------------------------------------*/
 
+/*-----------------BARRA NOVEDADES-----------------------------------------------------------------------------------*/
+.breadcrumb{
+	background-color:  #2f312e;
+	margin-left: 4.8%;
+	margin-right: 4.8%;	
+	margin-top: 2%;
+	margin-bottom: 0px;
+	height: 55px;
+	display: block;
+    text-align: center;
+}
+
+.breadcrumb h3{color: #f3ed17;}
+.breadcrumb h3:hover{color: white;}
+
+/*-----------------FIN BARRA NOVEDADES-----------------------------------------------------------------------------------*/
+
+/*-----------------ARTÍCULOS---------------------------------------------------------------------------------------------*/
+
+.card-body{	height: 180px;} /*DEFINO LA ALTURA DEL PRODUCTO*/
+
+/*LE DOY FORMA Y COLOR AL CONTENEDOR DEL PRODUCTO*/
+.card{							
+	background-color: #2f312e;
+	border-width: 6px;
+	border-radius: 5px;
+}
+/*DEFINO EL TAMAÑO DE LA IMAGEN PARA QUE ME QUEDEN TODOS LOS CONTENEDORES DE PRODUCTOS IGUALES
+SI LAS IMAGENES SON IGUALES NO HACE FALTA, PORQUE SE DEFORMAN SI LE DOY TAMAÑO*/
+/*.card a img{
+	min-height: 200px;
+	max-height: 200px;
+}*/
+/*LE SACO LOS MARGENES AL CONTENEDOR DE TODOS LOS PRODUCTOS*/
+.album .row{
+	margin-right: 0px;
+	margin-left: 0px;
+}
+
+.card-body h5{color: white;
+	height: 60px;} /*LE DOY COLOR AL NOMBRE DEL PRODUCTO Y TAMAÑO*/
+.card-body p{color: white;} /*LE DOY COLOR AL PRECIO*/
+
+/*LE DOY COLOR AL PRODUCTO RESALTADO*/
+.coll:hover .card-body{
+	box-shadow: 0 3px 5px 0 rgba(255,233, 0, 1), 0 8px 15px 0 rgba(255, 255, 0, 1);
+	border-radius: 5px;
+	margin-bottom: 0px ;
+}
+/*LE DOY COLOR AL NOMBRE DEL PRODUCTO RESALTADO */
+.coll:hover .card-body h5{
+	color: #f3ed17;
+	text-decoration: underline #2f312e;/*SACO EL SUBRRAYADO, POR DEFECTO ME HACE UNO EN COLOR AZUL*/
+}
+
+.card-body h5{
+	font-weight: lighter;
+	font-style: italic;
+}
+
+/*LE DOY MARGEN AL CONTENEDOR DE LOS PRODUCTOS*/
+.cont-novedades{
+	padding-right: 3.7%;
+	padding-left: 3.7%;
+}
 
 
-
+/*EDITO EL BOTÓN AGREGAR AL CARRITO*/
+.card-body .fa-cart-plus{
+	font-size: 140%;
+	width: 30px;
+	color: #f3ed17;
+}
+/*EDITO EL BOTÓN COMPRAR*/
+.card-body .btn{
+	color: #f3ed17;
+	border-color: grey;
+	  }
+.card-body .btn:hover{
+	background-color: grey;
+	color: #f3ed17;
+}
 
 
 body {
