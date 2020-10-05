@@ -128,10 +128,25 @@ SI LAS IMAGENES SON IGUALES NO HACE FALTA, PORQUE SE DEFORMAN SI LE DOY TAMAÑO*
 	color: #f3ed17;
 	border-color: grey;
 	  }
+
 .card-body .btn:hover{
 	background-color: grey;
 	color: #f3ed17;
 }
+
+/*--------------FIN ARTÍCULOS-------------------------------------------------------------------------------------------*/
+
+/*--------------FOOTER--------------------------------------------------------------------------------------------------*/
+
+.footer P{
+	margin-bottom: 0px;
+	color: white;
+}
+/*LE DOY MARGEN A LA IMAGEN PARA QUE ME QUEDDE CENTRADA*/
+.footer img{margin-left: 60px;}
+
+/*--------------FIN FOOTER-------------------------- -------------------------------------------------------------------*/
+
 
 
 body {
