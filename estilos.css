@@ -26,6 +26,36 @@ header .admin .navbar-nav{margin-left: 4.5%;}
 
 /*-----------------FIN HEADER-----------------------------------------------------------------------------------------*/
 
+/*-----------------INICIO DE SISEIÓN----------------------------------------------------------------------------------*/
+.modal-header h4{
+	margin-left: 24%;
+	color: yellow;
+}
+
+.modal-body .container form{
+	padding-top: 0px;
+	margin-top: 0px;
+}
+
+.modal-content{
+	background-color: #f2f2f2;
+	border-radius: 14px;
+	
+}
+
+
+.modal-header{
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+	background-color: #404040;
+}
+
+.regis{
+	margin-left: 10%; 
+}
+
+/*---------------FIN INICIO DE SISEIÓN-------------------------------------------------------------------------------*/
+
 
 
 /*-----------------CAROUSEL------------------------------------------------------------------------------------------*/
@@ -33,7 +63,7 @@ header .admin .navbar-nav{margin-left: 4.5%;}
 /*Defino el tamaño de las imagenes*/
 .img-responsive{
 	min-height: 200px;
-	max-height: 450px;
+	max-height: 600px;
 }
 /*Subo el carousel contra el navbar y defino el ancho*/
  .carousel-1{margin-top: 0px;
