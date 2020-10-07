@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+	<link rel="stylesheet"  href="css/estilos.css">
+	<link rel="stylesheet" href="iconos/css/all.min.css">
+
+	<title>INDEX-PRINCIPAL</title>
+</head>
+
+<body>
+	<!---------------------------HEADER------------------------------------------------------------------------->
+		<header>
+			<nav class="nav sticky-top navbar navbar-expand-md my-nav">
+				
+				<a href="#" class="navbar-brand"><i class="fab fa-battle-net"></i>NB ELECTRÓNICA</a>
+				<!--Botón que aparece cuando la pagina se ve en dispositivos pequeños--> 	
+				<button class="navbar-toggler navbar-toggler-right custom-toggler" type="button" data-toggle="collapse" data-target="#navegacion" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    				<span class="navbar-toggler-icon"></span>
+  				</button>
+				<!--fin-->
+				
+					
+				<div class="home navbar-collapse collapse justify-content-center" id="navegacion">
+						<ul class="navbar-nav">
+							<li class="nav-item ">
+								<a href="#" class=" nav-link active">HOME</a>
+							</li>
+						</ul>
+						<ul class="navbar-nav">
+							<li class="nav-item ">
+								<a href="#" class="nav-link">REGISTRARSE</a>
+							</li>
+						</ul>
+						<ul class="navbar-nav">
+							<li class="nav-item ">
+								<a href="#" class="nav-link">PRODUCTOS</a>
+							</li>
+						</ul>
+						<ul class="navbar-nav">
+							<li class="nav-item">
+								<a href="#" class="nav-link">CONTACTO</a>
+							</li>
+						</ul>
+						<ul class="navbar-nav">
+							<li class="nav-item">
+								<a href="" class="nav-link"data-toggle="modal" data-target="#ventanaInicio">INGRESAR</a>
+							</li>
+						</ul>				
+				</div>
+			</nav>
+		</header>
+    <!---------------------------FIN HEADER--------------------------------------------------------------------->
+
+    <!---------------------------VENTANA INICIO DE SESION------------------------------------------------------->
+
+    	<section>
+    		<div class="modal"  role="dialog" id="ventanaInicio">
+			  <div class="modal-dialog" role="document">
+			    <div class="modal-content">
+			      
+			      <div class="modal-header ">
+			        <h4 class="modal-tittle "><i class="fab fa-battle-net">   NB ELECTRÓNICA</i></h4>
+			        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+			          <span aria-hidden="true">&times;</span>
+			        </button>
+			      </div>
+
+
+			      <div class="modal-body">
+			        <div class="container">
+						<form  action="" class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+							<div class="form-group col-md-11">
+								<span><i class="fas fa-user"></i></span>
+								<label for="nombre">Nombre:</label>
+								<input class="form-control" id="nombre" type="text" placeholder="Usuario:">
+							</div>
+
+							<div class="form-group col-md-11">
+								<span ><i class="fas fa-lock"></i></span>
+								<label for="nombre">Contraseña:</label>
+								<input class="form-control" id="nombre" type="password" placeholder="Contraseña:">
+							</div>
+
+							<div class="form-group col-md-11">
+								<a href="">Olvidé la contraseña</a>	
+								<a href="" class="regis">Registrarse</a>
+							</div>
+						</form>																	
+					</div>
+			      </div>
+			      <div class="modal-footer">
+			        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+			        <button type="button" class="btn btn-primary">Iniciar Sesión</button>
+			      </div>
+			    </div>
+			  </div>
+			</div>
+    	</section>
+
+    <!---------------------------FIN VENTANA-------------------------------------------------------------------->
+
+
+    <!---------------------------CAROUSEL----------------------------------------------------------------------->
+		<section>
+			<div class="container-fluid">
+			<div class="col-md-12">
+				<div id="carousel-Indicador" class="carousel slide carousel-1" data-ride="carousel">
+					 <!-- Indicadores -->
+					  <ol class="carousel-indicators">
+					    <li data-target="#carousel-Indicador" data-slide-to="0" class="active"></li>
+					    <li data-target="#carousel-Indicador" data-slide-to="1"></li>
+					    <li data-target="#carousel-Indicador" data-slide-to="2"></li>
+					    <li data-target="#carousel-Indicador" data-slide-to="3"></li>
+					  </ol>
+
+					  <!--contenedor de los slide-->
+					  <div class="carousel-inner">
+					    <div class="carousel-item active">
+					      <img class="d-block w-100 img-responsive" src="img/samsung.png" alt="Primer slide">
+					    </div>
+					    <div class="carousel-item">
+					      <img class="d-block w-100 img-responsive" src="img/Iphone.png" alt="Segundo slide">
+					    </div>
+					    <div class="carousel-item">
+					      <img class="d-block w-100 img-responsive" src="img/xiaomi.png" alt="Tercer slide">
+					    </div>
+					    <div class="carousel-item">
+					      <img class="d-block w-100 img-responsive" src="img/notebooks.png" alt="Tercer slide">
+					    </div>
+					  </div>
+
+					  <!-- controles -->
+					  <a class="carousel-control-prev" href="#carousel-Indicador" role="button" data-slide="prev">
+					    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+					    <span class="sr-only">Anterior</span>
+					  </a>
+					  <a class="carousel-control-next" href="#carousel-Indicador" role="button" data-slide="next">
+					    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+					    <span class="sr-only">Siguiente</span>
+					  </a>
+					</div>
+				</div>
+			</div>
+		</section>
+	<!---------------------------FIN CAROUSEL----------------------------------------------------------------------->
+
+	<!---------------------------NOVEDADES----------------------------------------------------------------------->
+		<section>	
+
+			<div class="col-md-12">
+				<ol class="breadcrumb align-items-center">
+			 		<h3>NOVEDADES</h3>
+		  		</ol>
+					
+
+			<div class="album py-5 al">
+			    <div class="container-fluid cont-novedades">
+
+			      <div class="row">
+			      	<!---------Producto -->
+			        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3 coll ">
+			          <div class="card mb-3 shadow-sm">
+			            <a href="#">
+			        <img src="img/POCOX3128GB.jpg" class="w-100"></a>
+			            <div class="card-body">
+			              <a href="#"><h5 class="text-center">Xiaomi Poco x3 128gb</h5></a> 
+			              <p>Precio:<span> $5000</span></p>
+			              <div class="d-flex justify-content-center align-items-center">
+			                <div class="btn-group">
+			                 <button type="button" class="btn btn-sm btn-outline-secondary"><i class="fas fa-cart-plus"></i></button>
+			                  <button type="button" class="btn ">COMPRAR</button>
+			                </div>
+			               </div>
+			            </div>
+			          </div>
+			        </div>
+
+			        <!---------Producto -->
+			        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3 coll ">
+			          <div class="card mb-3 shadow-sm">
+			            <a href="#">
+							<img src="img/S20ULTRA.jpg" class="w-100"></a>
+			            <div class="card-body">
+			              <a href="#"><h5 class="text-center">Samnsung S20 Ultra</h5></a> 
+			              <p>Precio:<span> $5000</span></p>
+			              <div class="d-flex justify-content-center align-items-center">
+			                <div class="btn-group">
+			                 <button type="button" class="btn btn-sm btn-outline-secondary"><i class="fas fa-cart-plus"></i></button>
+			                  <button type="button" class="btn ">COMPRAR</button>
+			                </div>
+			               </div>
+			            </div>
+			          </div>
+			        </div>
+			        <!---------Producto -->
+			        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3 coll ">
+			          <div class="card mb-3 shadow-sm">
+			            <a href="#">
+							<img src="img/MACBOOKAIRETINA13.jpg" class="w-100"></a>	
+			            <div class="card-body">
+			              <a href="#"><h5 class="text-center">Macbook Air Retina 13"</h5></a> 
+			              <p>Precio:<span> $5000</span></p>
+			              <div class="d-flex justify-content-center align-items-center">
+			                <div class="btn-group">
+			                  <button type="button" class="btn btn-sm btn-outline-secondary"><i class="fas fa-cart-plus"></i></button>
+			                  <button type="button" class="btn ">COMPRAR</button>
+			                </div>
+			               </div>
+			            </div>
+			          </div>
+			        </div>
+			        <!---------Producto -->
+			        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3 coll ">
+			          <div class="card mb-3 shadow-sm">
+			            <a href="#">
+							<img src="img/ULTRABOOK-ACER-ASPIRE-3.jpg" class="w-100"></a>
+			            <div class="card-body">
+			              <a href="#"><h5 class="text-center">Notebook Ultrabook Acer Aspire 3</h5></a> 
+			              <p>Precio:<span> $5000</span></p>
+			              <div class="d-flex justify-content-center align-items-center">
+			                <div class="btn-group">
+			                <button type="button" class="btn btn-sm btn-outline-secondary"><i class="fas fa-cart-plus"></i></button>
+			                  <button type="button" class="btn ">COMPRAR</button>
+			                </div>
+			               </div>
+			            </div>
+			          </div>
+			        </div>
+			        <!---------Producto -->
+			        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3 coll ">
+			          <div class="card mb-3 shadow-sm">
+			            <a href="#">
+							<img src="img/XiaomiRedmiAirdots.jpg" class="w-100"></a>
+			            <div class="card-body">
+			              <a href="#"><h5 class="text-center">Auriculares Xiaomi Redmi Airdots</h5></a> 
+			              <p>Precio:<span> $5000</span></p>
+			              <div class="d-flex justify-content-center align-items-center">
+			                <div class="btn-group">
+			                <button type="button" class="btn btn-sm btn-outline-secondary"><i class="fas fa-cart-plus"></i></button>
+			                  <button type="button" class="btn ">COMPRAR</button>
+			                </div>
+			               </div>
+			            </div>
+			          </div>
+			        </div>
+			        <!---------Producto -->
+			        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3 coll ">
+			          <div class="card mb-3 shadow-sm">
+			            <a href="#">
+							<img src="img/Skullcandyvenue.jpg" class="w-100"></a>
+			            <div class="card-body">
+			              <a href="#"><h5 class="text-center">Auriculares Skullcandy Venue</h5></a> 
+			              <p>Precio:<span> $5000</span></p>
+			              <div class="d-flex justify-content-center align-items-center">
+			                <div class="btn-group">
+			                <button type="button" class="btn btn-sm btn-outline-secondary"><i class="fas fa-cart-plus"></i></button>
+			                  <button type="button" class="btn ">COMPRAR</button>
+			                </div>
+			               </div>
+			            </div>
+			          </div>
+			        </div>
+			        <!---------Producto -->
+			        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3 coll ">
+			          <div class="card mb-3 shadow-sm">
+			            <a href="#">
+							<img src="img/motog8power64xt2041.jpg" class="w-100"></a>
+			            <div class="card-body">
+			              <a href="#"><h5 class="text-center">Motorola Moto G8 Power XT2041</h5></a> 
+			              <p>Precio:<span> $5000</span></p>
+			              <div class="d-flex justify-content-center align-items-center">
+			                <div class="btn-group">
+			               <button type="button" class="btn btn-sm btn-outline-secondary"><i class="fas fa-cart-plus"></i></button>
+			                  <button type="button" class="btn ">COMPRAR</button>
+			                </div>
+			               </div>
+			            </div>
+			          </div>
+			        </div>
+			        <!---------Producto -->
+			        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3 coll ">
+			          <div class="card mb-3 shadow-sm">
+			            <a href="#">
+							<img src="img/hppavilion15 dw0083wn.jpg" class="w-100"></a>
+			            <div class="card-body">
+			              <a href="#"><h5 class="text-center">Notebook HP Pavilion 15 DW0083WN</h5></a> 
+			              <p>Precio:<span> $5000</span></p>
+			              <div class="d-flex justify-content-center align-items-center">
+			                <div class="btn-group">
+			                <button type="button" class="btn btn-sm btn-outline-secondary"><i class="fas fa-cart-plus"></i></button>
+			                  <button type="button" class="btn ">COMPRAR</button>
+			                </div>
+			               </div>
+			            </div>
+			          </div>
+			        </div>
+
+			    </div>
+			  </div>
+			</div>
+				
+		</section>
+		
+	<!---------------------------FIN NOVEDADES-------------------------------------------------------------------->
+
+	<!---------------------FOOTER---------------------------------------------------------------------------------->
+	
+		
+	  <footer id="sticky-footer" class="py-4 bg-dark text-white-50">
+	    <div class="container-fluid footer">
+	    	<div class="row">
+	    		<div class="col-md-6 text-center">
+	    			<p class="fp">FORMAS DE PAGO</p>
+	    			<img src="img/pago.png" alt="">
+	    		</div>
+
+	    		<div class="col-md-6 text-center">
+		    		<p>ZEBALLOS 1341-(2000)ROSARIO PROVINCIA DE SANTA FE-ARGENTINA</p>
+		    		<p>TELEFONOS: (0341) 4269112 | +54 (0341) 153-627705</p>
+		    	</div>
+	    	</div> 
+	    </div>
+	  </footer>
+
+    <!---------------------FIN FOOTER------------------------------------------------------------------------------>
+
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
