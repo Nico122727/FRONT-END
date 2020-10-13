@@ -18,9 +18,9 @@ header .my-nav .fa-battle-net{margin-right: 06%;}/*LE DOY MARGEN ENTRE EL ICONO 
 
 
 /*Separo un poco los botones del menu*/
-header  .home .navbar-nav{margin-left:  03.5%;} 
+header  .home .navbar-nav{margin-left:  3%;} 
 
-header .login .navbar-nav{margin-left: 2.5%;}
+header .login .navbar-nav{margin-left: 2.1%;}
 
 header .admin .navbar-nav{margin-left: 4.5%;}
 
@@ -243,5 +243,24 @@ header .admin .navbar-nav{margin-left: 4.5%;}
 
 /*--------------FIN REGISTRO DE USUARIO---------------------------------------------------------------------------------*/
 
+/*--------------PAGINACIÓN----------------------------------------------------------------------------------------------*/
+.pagination .page-link{
+	color: yellow; 
+	border-color: black;
+	background-color: #2f312e;
+}
+
+.pagination .activo .page-link{
+	background-color: grey;
+}
+
+.pagination .page-link:hover{
+	color: yellow; 
+	border-color: black;
+	background-color: grey;
+}
+
+
+/*--------------FIN PAGINACIÓN------------------------------------------------------------------------------------------*/
 body {
 	background-color: #e0e0e0;}
