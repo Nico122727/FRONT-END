@@ -24,6 +24,12 @@ header .login .navbar-nav{margin-left: 2.1%;}
 
 header .admin .navbar-nav{margin-left: 4.5%;}
 
+/*Le doy color a los items del dropdowm Productos cuando pasa el mouse por arriba*/
+.dropdown-item:hover{
+	background-color: #2f312e;
+	color: #f3ed17;
+}	
+
 /*-----------------FIN HEADER-----------------------------------------------------------------------------------------*/
 
 
@@ -107,62 +113,62 @@ header .admin .navbar-nav{margin-left: 4.5%;}
 
 /*-----------------ARTÍCULOS---------------------------------------------------------------------------------------------*/
 
-.card-body{	height: 180px;} /*DEFINO LA ALTURA DEL PRODUCTO*/
+.productos .card-body{	height: 180px;} /*DEFINO LA ALTURA DEL PRODUCTO*/
 
 /*LE DOY FORMA Y COLOR AL CONTENEDOR DEL PRODUCTO*/
-.card{							
+.productos .card{							
 	background-color: #2f312e;
 	border-width: 6px;
 	border-radius: 5px;
 }
 
 /*LE SACO LOS MARGENES AL CONTENEDOR DE TODOS LOS PRODUCTOS*/
-.album .row{
+.productos .album .row{
 	margin-right: 0px;
 	margin-left: 0px;
 }
 
-.card-body h5{color: white;
+.productos .card-body h5{color: white;
 	height: 60px;} /*LE DOY COLOR AL NOMBRE DEL PRODUCTO Y TAMAÑO*/
-.card-body p{color: white;} /*LE DOY COLOR AL PRECIO*/
+.productos .card-body p{color: white;} /*LE DOY COLOR AL PRECIO*/
 
 /*LE DOY COLOR AL PRODUCTO RESALTADO*/
-.coll:hover .card-body{
+.productos .coll:hover .card-body{
 	box-shadow: 0 3px 5px 0 rgba(255,233, 0, 1), 0 8px 15px 0 rgba(255, 255, 0, 1);
 	border-radius: 5px;
 	margin-bottom: 0px ;
 }
 /*LE DOY COLOR AL NOMBRE DEL PRODUCTO RESALTADO */
-.coll:hover .card-body h5{
+.productos .coll:hover .card-body h5{
 	color: #f3ed17;
 	text-decoration: underline #2f312e;/*SACO EL SUBRRAYADO, POR DEFECTO ME HACE UNO EN COLOR AZUL*/
 }
 
-.card-body h5{
+.productos .card-body h5{
 	font-weight: lighter;
 	font-style: italic;
 }
 
 /*LE DOY MARGEN AL CONTENEDOR DE LOS PRODUCTOS*/
-.cont-novedades{
+.productos .cont-novedades{
 	padding-right: 3.7%;
 	padding-left: 3.7%;
 }
 
 
 /*EDITO EL BOTÓN AGREGAR AL CARRITO*/
-.card-body .fa-cart-plus{
+.productos .card-body .fa-cart-plus{
 	font-size: 140%;
 	width: 30px;
 	color: #f3ed17;
 }
 /*EDITO EL BOTÓN COMPRAR*/
-.card-body .btn{
+.productos .card-body .btn{
 	color: #f3ed17;
 	border-color: grey;
 	  }
 
-.card-body .btn:hover{
+.productos .card-body .btn:hover{
 	background-color: grey;
 	color: #f3ed17;
 }
@@ -221,13 +227,13 @@ header .admin .navbar-nav{margin-left: 4.5%;}
 	margin-left: 20px;
 }
 
-.boton {
+.registro .boton {
 	padding-left: 20px;
 	padding-right:20px;
 
 }
 /*LE DOY FORMATO A LA IMAGEN*/
-.imgreg{
+.registro .imgreg{
 	margin-top: 3px;
 	margin-left: 3%;
 	margin-top: 20%;
@@ -260,7 +266,101 @@ header .admin .navbar-nav{margin-left: 4.5%;}
 	background-color: grey;
 }
 
-
 /*--------------FIN PAGINACIÓN------------------------------------------------------------------------------------------*/
+
+/*--------------CONTACTO------------------------------------------------------------------------------------------------*/
+
+.contacto form {
+	margin-top: 20px;
+}
+
+/*LE DOY FORMATO AL FONDO DEL FORMULARIO*/
+.contacto .tumb {
+	padding-top: 0px;
+	margin-top: 45px;
+	border-radius: 10px;
+	margin-left: 20px;
+	background-color:  #2f312e;
+}
+
+/*LE DOY FORMATO AL TITULO DEL FORMULARIO */
+.contacto .tumb h4 {
+	text-align: center;
+	color: white; 
+	padding-top: 20px;
+	font-weight: lighter;
+	font-style: italic;	
+}
+
+/*CENTRO LOS BOTONES*/
+.contacto .botones-consulta
+{	
+	display: inline-block;
+	margin-top: 15px;
+	margin-left: 20%;
+}
+
+.contacto .btn-primary{
+	margin-left: 20px;
+}
+
+.contacto .boton-cancelar {
+	padding-left: 20px;
+	padding-right:20px;
+}
+
+.contacto .boton-enviar {
+	padding-left: 30px;
+	padding-right:30px;
+}
+
+/*SEPARO UN POCO EL CONTENEDOR DEL FOOTER*/
+.contacto .container{
+	margin-bottom: 20px;
+}
+/*Le doy color al label Consulta*/
+.contacto .form-group label{
+	color: white;
+}
+
+/*LE DOY FORMATO AL MAPA Y LO CENTRO*/
+.contacto .mapa iframe{
+left:0;
+top:0;
+height:100%;
+width:100%;
+position:absolute;
+
+}
+
+.contacto .mapa{
+overflow:hidden;
+padding-bottom:60%;
+position:relative;
+height:0;
+}
+
+/*LE DOY FORMATO AL CONTENEDOR DEL MAPA*/
+.contacto .card{
+	margin-top: 12%;
+	background-color:#2f312e;
+	border-radius: 10px;
+	margin-left: 4%; 
+}
+/*LE DOY FORMATO AL NOMBRE ARRIBA DEL MAPA*/
+.contacto .card h3{
+	padding-top: 5px;
+	text-align: center;
+	color: white;
+	font-weight: lighter;
+	font-style: italic;	
+}
+
+.contacto .card-body{
+	padding-top: 0px;
+}
+
+/*--------------FIN CONTACTO--------------------------------------------------------------------------------------------*/
+
 body {
 	background-color: #e0e0e0;}
