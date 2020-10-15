@@ -220,7 +220,7 @@ header .admin .navbar-nav{margin-left: 4.5%;}
 {	
 	display: inline-block;
 	margin-top: 15px;
-	margin-left: 22%
+	margin-left: 22%;
 }
 
 .registro .btn-primary{
@@ -361,6 +361,57 @@ height:0;
 }
 
 /*--------------FIN CONTACTO--------------------------------------------------------------------------------------------*/
+
+/*--------------MIS DATOS-----------------------------------------------------------------------------------------------*/
+.modificar{
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.cancelarmodificar{
+	padding-left: 18px;
+	padding-right: 18px;
+}
+
+.misDatos form {
+	margin-top: 20px;
+}
+
+/*LE DOY FORMATO AL FONDO DEL FORMULARIO*/
+.misDatos .tumb {
+	padding-top: 0px;
+	margin-top: 45px;
+	border-radius: 10px;
+	background-color:  #2f312e;
+}
+
+/*LE DOY FORMATO AL TITULO DEL FORMULARIO */
+.misDatos .tumb h4 {
+	text-align: center;
+	color: white; 
+	padding-top: 20px;
+	font-weight: lighter;
+	font-style: italic;	
+}
+
+/*CENTRO LOS BOTONES*/
+.misDatos .botones
+{	
+	display: inline-block;
+	margin-top: 15px;
+	margin-left: 25%;
+}
+
+.misDatos .btn-primary{
+	margin-left: 20px;
+}
+
+
+/*SEPARO UN POCO EL CONTENEDOR DEL FOOTER*/
+.misDatos .container{
+	margin-bottom: 20px;
+}
+/*--------------FIN MIS DATOS-------------------------------------------------------------------------------------------*/
 
 body {
 	background-color: #e0e0e0;}
