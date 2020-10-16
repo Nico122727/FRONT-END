@@ -126,8 +126,13 @@ header .admin .navbar-nav{margin-left: 4.5%;}
 .productos .album .row{
 	margin-right: 0px;
 	margin-left: 0px;
+	
 }
 
+.productos .album{
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+}
 .productos .card-body h5{color: white;
 	height: 60px;} /*LE DOY COLOR AL NOMBRE DEL PRODUCTO Y TAMAÑO*/
 .productos .card-body p{color: white;} /*LE DOY COLOR AL PRECIO*/
@@ -180,16 +185,20 @@ header .admin .navbar-nav{margin-left: 4.5%;}
 
 /*--------------FOOTER--------------------------------------------------------------------------------------------------*/
 
-.footer P{
+.footer p{
 	margin-bottom: 0px;
 	color: white;
 }
 /*LE DOY MARGEN A LA IMAGEN PARA QUE ME QUEDDE CENTRADA*/
 .footer img{margin-left: 60px;}
 
+.footer{
+	margin-top: 23px;
+	margin-bottom: 23px;
+}
+
+
 /*--------------FIN FOOTER----------------------------------------------------------------------------------------------*/
-
-
 
 
 /*--------------REGISTRO DE USUARIO-------------------------------------------------------------------------------------*/
@@ -200,7 +209,7 @@ header .admin .navbar-nav{margin-left: 4.5%;}
 /*LE DOY FORMATO AL FONDO DEL FORMULARIO*/
 .registro .tumb {
 	padding-top: 0px;
-	margin-top: 45px;
+	margin-top: 80px;
 	border-radius: 10px;
 	margin-left: 20px;
 	background-color:  #2f312e;
@@ -247,6 +256,8 @@ header .admin .navbar-nav{margin-left: 4.5%;}
 	margin-bottom: 20px;
 }
 
+
+
 /*--------------FIN REGISTRO DE USUARIO---------------------------------------------------------------------------------*/
 
 /*--------------PAGINACIÓN----------------------------------------------------------------------------------------------*/
@@ -265,10 +276,18 @@ header .admin .navbar-nav{margin-left: 4.5%;}
 	border-color: black;
 	background-color: grey;
 }
+.pagination{
+	margin-bottom: 40px;
+	position: relative;
+}
 
 /*--------------FIN PAGINACIÓN------------------------------------------------------------------------------------------*/
 
 /*--------------CONTACTO------------------------------------------------------------------------------------------------*/
+
+.contacto {
+	margin-bottom: 6%;
+}
 
 .contacto form {
 	margin-top: 20px;
@@ -277,10 +296,11 @@ header .admin .navbar-nav{margin-left: 4.5%;}
 /*LE DOY FORMATO AL FONDO DEL FORMULARIO*/
 .contacto .tumb {
 	padding-top: 0px;
-	margin-top: 45px;
+	margin-top: 100px;
 	border-radius: 10px;
 	margin-left: 20px;
 	background-color:  #2f312e;
+
 }
 
 /*LE DOY FORMATO AL TITULO DEL FORMULARIO */
@@ -331,6 +351,7 @@ height:100%;
 width:100%;
 position:absolute;
 
+
 }
 
 .contacto .mapa{
@@ -342,7 +363,7 @@ height:0;
 
 /*LE DOY FORMATO AL CONTENEDOR DEL MAPA*/
 .contacto .card{
-	margin-top: 12%;
+	margin-top: 20%;
 	background-color:#2f312e;
 	border-radius: 10px;
 	margin-left: 4%; 
@@ -380,7 +401,8 @@ height:0;
 /*LE DOY FORMATO AL FONDO DEL FORMULARIO*/
 .misDatos .tumb {
 	padding-top: 0px;
-	margin-top: 45px;
+	margin-top: 60px;
+	margin-bottom: 50px;
 	border-radius: 10px;
 	background-color:  #2f312e;
 }
@@ -413,5 +435,63 @@ height:0;
 }
 /*--------------FIN MIS DATOS-------------------------------------------------------------------------------------------*/
 
+
+/*--------------MIS COMPRAS---------------------------------------------------------------------------------------------*/
+
+/*Doy formato a los titulos de la tabla*/
+.misCompras th{
+	font-style: italic;
+	color: #f3ed17;
+}
+
+.misCompras td{
+	color: white;
+}
+
+.misCompras td a{
+	color: white;
+}
+
+.misCompras td a:hover{
+	color: #f3ed17;
+}
+
+.misCompras form {
+	margin-top: 20px;
+}
+
+/*LE DOY FORMATO AL FONDO DEL FORMULARIO*/
+.misCompras .tumb {
+	padding-top: 0px;
+	margin-top: 45px;
+	border-radius: 10px;
+	background-color:  #2f312e;
+	margin-bottom: 20px;
+}
+
+/*LE DOY FORMATO AL TITULO DEL FORMULARIO */
+.misCompras .tumb h4 {
+	text-align: center;
+	color: white; 
+	padding-top: 15px;
+	padding-bottom: 10px;
+	font-weight: lighter;
+	font-style: italic;	
+}
+
+/*SEPARO UN POCO EL CONTENEDOR DEL FOOTER*/
+.misCompras .container{
+	margin-bottom: 140px;
+}
+
+
+
+/*--------------FIN MIS DATOS-------------------------------------------------------------------------------------------*/
+
+
 body {
-	background-color: #e0e0e0;}
+	background-color: #e0e0e0;
+	height: 100vh;
+
+	}
+
