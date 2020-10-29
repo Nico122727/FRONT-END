@@ -18,9 +18,9 @@ header .my-nav .fa-battle-net{margin-right: 06%;}/*LE DOY MARGEN ENTRE EL ICONO 
 
 
 /*Separo un poco los botones del menu*/
-header  .home .navbar-nav{margin-left:  3%;} 
+header  .home .navbar-nav{margin-left:  2.5%;} 
 
-header .login .navbar-nav{margin-left: 2.1%;}
+header .login .navbar-nav{margin-left: 1.8%;}
 
 header .admin .navbar-nav{margin-left: 4.5%;}
 
@@ -115,6 +115,7 @@ header .admin .navbar-nav{margin-left: 4.5%;}
 
 .productos .card-body{	height: 180px;} /*DEFINO LA ALTURA DEL PRODUCTO*/
 
+
 /*LE DOY FORMA Y COLOR AL CONTENEDOR DEL PRODUCTO*/
 .productos .card{							
 	background-color: #2f312e;
@@ -192,11 +193,6 @@ header .admin .navbar-nav{margin-left: 4.5%;}
 /*LE DOY MARGEN A LA IMAGEN PARA QUE ME QUEDDE CENTRADA*/
 .footer img{margin-left: 60px;}
 
-.footer{
-	margin-top: 23px;
-	margin-bottom: 23px;
-}
-
 
 /*--------------FIN FOOTER----------------------------------------------------------------------------------------------*/
 
@@ -209,7 +205,7 @@ header .admin .navbar-nav{margin-left: 4.5%;}
 /*LE DOY FORMATO AL FONDO DEL FORMULARIO*/
 .registro .tumb {
 	padding-top: 0px;
-	margin-top: 80px;
+	margin-top: 50px;
 	border-radius: 10px;
 	margin-left: 20px;
 	background-color:  #2f312e;
@@ -296,7 +292,7 @@ header .admin .navbar-nav{margin-left: 4.5%;}
 /*LE DOY FORMATO AL FONDO DEL FORMULARIO*/
 .contacto .tumb {
 	padding-top: 0px;
-	margin-top: 100px;
+	margin-top: 70px;
 	border-radius: 10px;
 	margin-left: 20px;
 	background-color:  #2f312e;
@@ -363,7 +359,7 @@ height:0;
 
 /*LE DOY FORMATO AL CONTENEDOR DEL MAPA*/
 .contacto .card{
-	margin-top: 20%;
+	margin-top: 17%;
 	background-color:#2f312e;
 	border-radius: 10px;
 	margin-left: 4%; 
@@ -481,17 +477,14 @@ height:0;
 
 /*SEPARO UN POCO EL CONTENEDOR DEL FOOTER*/
 .misCompras .container{
-	margin-bottom: 140px;
+	margin-bottom: 30px;
 }
 
 
-
-/*--------------FIN MIS DATOS-------------------------------------------------------------------------------------------*/
+/*--------------FIN MIS COMPRAS-------------------------------------------------------------------------------------------*/
 
 
 body {
 	background-color: #e0e0e0;
-	height: 100vh;
-
 	}
 
