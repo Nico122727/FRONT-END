@@ -35,30 +35,30 @@ header .admin .navbar-nav{margin-left: 4.5%;}
 
 
 /*-----------------INICIO DE SESIÓN----------------------------------------------------------------------------------*/
-.modal-header h4{
+.inicio-sesion .modal-header h4{
 	margin-left: 24%;
 	color: yellow;
 }
 
-.modal-body .container form{
+.inicio-sesion .modal-body .container form{
 	padding-top: 0px;
 	margin-top: 0px;
 }
 
-.modal-content{
+.inicio-sesion .modal-content{
 	background-color: #f2f2f2;
 	border-radius: 14px;
 	
 }
 
 
-.modal-header{
+.inicio-sesion .modal-header{
 	border-top-right-radius: 10px;
 	border-top-left-radius: 10px;
 	background-color: #404040;
 }
 
-.regis{
+.inicio-sesion .regis{
 	margin-left: 10%; 
 }
 
@@ -483,6 +483,82 @@ height:0;
 
 /*--------------FIN MIS COMPRAS-------------------------------------------------------------------------------------------*/
 
+
+/*-----------------CARRITO-----------------------------------------------------------------------------------------------*/
+
+/*COLOR Y FORMATO DEL TÍTULO*/
+.carrito .modal-header h3{
+	color: white;
+	margin-left: 44%;
+	font-weight: lighter;
+	font-style: italic;	
+}
+
+/*LE DOY TAMAÑO Y CENTRO EL CAMPO CANTIDAD DE PRODUCTO*/
+.carrito td input{
+	width: 30px;
+	text-align: center;
+}
+
+/*CAMBIO EL TAMAÑO DEL ICONO ELIMINAR*/
+.carrito td a  .fa-times-circle{
+	color: red;
+	font-size: 25px;
+}
+
+/*COLOR DEL FONDO Y REDONDEO LA PARTE CENTRAL*/
+.carrito .modal-content{
+	background-color: #eaebea;
+	border-radius: 180px;
+}
+/*COLOR DEL FONDO ENCABEZADO Y REDONDEO LA PARTE SUPERIOR*/
+.carrito .modal-header{
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+	background-color: #2f312e;
+}
+
+/*DOY FORMATO A LOS TITULOS DE LA TABLA */
+.carrito th{
+	font-style: italic;
+	color: #f3ed17;
+}
+
+/*DOY COLOR AL TEXTO DE LA TABLA Y CENTRO LOS ELEMENTOS*/
+.carrito td{color: black;
+			min-width: 130px;
+			display: table-cell;
+   			vertical-align: middle;
+   		}
+.carrito td a{color: black;}
+.carrito td a:hover{color: #f3ed17;}
+
+/*COLOR AL ENCABEZADO DE LA TABLA*/
+.carrito .success{background-color:#2f312e;}
+.carrito .success:hover{background-color:#2f312e;}
+
+/*COLOR AL FONDO DE LOS RENGLONES DE LA TABLA*/
+.carrito td{background-color:#a3acdb;}
+
+/*COLOR AL FOOTER DE LA VENTANA*/
+.carrito .modal-footer{
+	background-color: #2f312e;
+}
+
+/*DOY FORMATO BOTONES DE CANTIDAD*/
+.carrito .btn-outline-secondary{
+	background-color: white;
+	color: black;
+	width: 30px;
+}
+
+/*CENTRO BOTONES DE CANTIDAD*/
+.carrito .input-group{
+	margin-left: 14%;
+	  }
+
+
+/*---------------FIN CARRITO--------------------------------------------------------------------------------------------------*/
 
 body {
 	background-color: #e0e0e0;
