@@ -557,9 +557,123 @@ height:0;
 	margin-left: 14%;
 	  }
 
-
 /*---------------FIN CARRITO--------------------------------------------------------------------------------------------------*/
 
+
+
+/*---------------DETALLE PRODUCTO----------------------------------------------------------------------------------------------*/
+
+/*FORMATO AL NÓMBRE DEL PRODUCTO*/
+.detalle-producto h2{
+		border-bottom: 2px solid grey;
+		font-style: italic;
+		color: #2f312e;
+	  }
+
+.detalle-producto .columna{
+	padding-right: 5%;
+	padding-left: 5%;
+	}
+
+.detalle-producto .col2{
+	padding-left: 10%;
+}
+
+/*FORMATO A LA IMAGEN*/
+.detalle-producto img{
+	border: 3px solid black;
+	border-radius: 15px;
+}
+
+/*LE DOY TAMAÑO Y CENTRO EL CAMPO CANTIDAD DE PRODUCTO*/
+.detalle-producto input{
+	width: 40px;
+	text-align: center;
+}
+
+.detalle-producto .input-group-prepend .btn{
+	color: #f3ed17;
+	background-color: #2f312e;
+	border-color: black;
+}
+
+.detalle-producto .input-group-prepend .btn:hover{
+	color: #f3ed17;
+	background-color: grey;
+}
+
+.detalle-producto .input-group-append .btn{
+	color: #f3ed17;
+	background-color: #2f312e;
+	border-color: black;
+}
+
+.detalle-producto .input-group-append .btn:hover{
+	color: #f3ed17;
+	background-color: grey;
+}
+
+
+.detalle-producto .precio{
+	font-weight: lighter;
+	font-style: italic;	
+}
+
+.detalle-producto .cantidad{
+	margin-top: 8%;
+	font-weight: lighter;
+	font-style: italic;	
+}
+
+.detalle-producto .btn-comprar{
+	background-color: #2f312e;
+	color: #f3ed17;
+	margin-top: 7%;
+}
+
+.detalle-producto .pre{
+	margin-left: 75%; 
+}
+
+.detalle-producto .cant{
+	margin-left: 17%; 
+}
+
+.detalle-producto .btn-comprar:hover{
+	background-color: #2f312e;
+	color: white;
+}
+
+.detalle-producto .volver{
+	color: #2f312e;
+}
+
+
+.detalle-producto h3{
+		border-bottom: 2px solid grey;
+		font-style: italic;
+		color: #2f312e;
+		text-align: center;
+	  }
+
+/*FORMATO A LA TABLA*/
+.detalle-producto .table{
+	background-color: #2f312e;
+	border-radius: 15px;
+	margin-bottom: 5%;
+
+}
+
+/*COLOR A LOS ELEMENTOS DE LA TABLA*/
+.detalle-producto th{
+	color: #f3ed17;
+}
+
+.detalle-producto td{
+	color: white;
+}
+
+/*---------------FIN DETALLE PRODUCTO----------------------------------------------------------------------------------------------*/
 body {
 	background-color: #e0e0e0;
 	}
