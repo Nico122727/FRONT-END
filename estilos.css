@@ -71,7 +71,7 @@ header .admin .navbar-nav{margin-left: 4.5%;}
 /*Defino el tamaño de las imagenes*/
 .img-responsive{
 	min-height: 200px;
-	max-height: 600px;
+	max-height: 500px;
 }
 /*Subo el carousel contra el navbar y defino el ancho*/
  .carousel-1{margin-top: 0px;
@@ -88,6 +88,72 @@ header .admin .navbar-nav{margin-left: 4.5%;}
 }
 /*-----------------FIN CAROUSEL--------------------------------------------------------------------------------------*/
 
+/*---------------BARRA BUSQUEDA Y FILTRO------------------------------------------------------------------------------*/
+
+.barra-busqueda{
+	
+	border-bottom-right-radius: 15px;
+	border-bottom-left-radius: 15px;
+	height: 88px;
+	width: 400px;
+
+	background-color: black;
+}
+
+
+.barra-busqueda .filtrar{
+	padding-top: 2px;
+	padding-bottom: 2px;
+
+
+}
+
+.barra-busqueda .busqueda{
+	padding-top:  6px;
+}
+
+/*---------------FIN BARRA BUSQUEDA Y FILTRO-------------------------------------------------------------------------*/
+
+
+
+/*---------------VENTANA FILTRO--------------------------------------------------------------------------------------*/
+
+/*COLOR Y FORMATO DEL TÍTULO*/
+.filtros .modal-header h3{
+	color: white;
+	margin-left: 44%;
+	font-weight: lighter;
+	font-style: italic;	
+}
+
+
+
+/*COLOR DEL FONDO Y REDONDEO LA PARTE CENTRAL*/
+.filtros .modal-content{
+	background-color: #eaebea;
+	border-radius: 55px;
+	
+}
+/*COLOR DEL FONDO ENCABEZADO Y REDONDEO LA PARTE SUPERIOR*/
+.filtros .modal-header{
+	border-top-right-radius: 50px;
+	border-top-left-radius: 50px;
+	background-color: #2f312e;
+}
+
+
+/*COLOR AL FOOTER DE LA VENTANA*/
+.filtros .modal-footer{
+	background-color: #2f312e;
+	border-bottom-right-radius: 50px;
+	border-bottom-left-radius: 50px;
+}
+
+.filtrar{
+	background-color: black;
+	color:#f3ed17;
+}	
+/*---------------FIN VENTANA FILTRO--------------------------------------------------------------------------------------*/
 
 
 
@@ -674,6 +740,8 @@ height:0;
 }
 
 /*---------------FIN DETALLE PRODUCTO----------------------------------------------------------------------------------------------*/
+
+
 body {
 	background-color: #e0e0e0;
 	}
