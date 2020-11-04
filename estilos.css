@@ -58,6 +58,12 @@ header .admin .navbar-nav{margin-left: 4.5%;}
 	background-color: #404040;
 }
 
+.inicio-sesion .modal-footer{
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+	background-color: #404040;
+}
+
 .inicio-sesion .regis{
 	margin-left: 10%; 
 }
@@ -741,7 +747,55 @@ height:0;
 
 /*---------------FIN DETALLE PRODUCTO----------------------------------------------------------------------------------------------*/
 
+/*--------------NUEVO PRODUCTO------------------------------------------------------------------------------------------------*/
 
+
+.nuevo-Producto form {
+	margin-top: 20px;
+}
+
+/*LE DOY FORMATO AL FONDO DEL FORMULARIO*/
+.nuevo-Producto .tumb {
+	padding-top: 0px;
+	margin-top: 45px;
+	border-radius: 20px;
+	background-color:  #2f312e;
+	margin-bottom: 20px;
+
+}
+
+/*LE DOY FORMATO AL TITULO DEL FORMULARIO */
+.nuevo-Producto .tumb h4 {
+	text-align: center;
+	color: white; 
+	padding-top: 15px;
+	font-weight: lighter;
+	font-style: italic;	
+}
+
+/*SEPARO UN POCO EL CONTENEDOR DEL FOOTER*/
+.nuevo-Producto .container{
+	margin-bottom: 30px;
+}
+
+.nuevo-Producto label{
+	color: white;
+	margin-left: 6%;
+}
+
+.nuevo-Producto .botones{	
+	display: inline-block;
+}
+
+.nuevo-Producto .boton{	
+	margin-right: 5px;
+}
+
+.nuevo-Producto .categoria{	
+	margin-top: 32px;
+}
+
+/*--------------FIN NUEVO PRODUCTO-------------------------------------------------------------------------------------------*/
 body {
 	background-color: #e0e0e0;
 	}
