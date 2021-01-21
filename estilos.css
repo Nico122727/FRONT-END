@@ -602,8 +602,10 @@ height:0;
 			display: table-cell;
    			vertical-align: middle;
    		}
+.carrito .alinear{padding-left: 8.5%;}   		
 .carrito td a{color: black;}
 .carrito td a:hover{color: #f3ed17;}
+
 
 /*COLOR AL ENCABEZADO DE LA TABLA*/
 .carrito .success{background-color:#2f312e;}
@@ -626,7 +628,7 @@ height:0;
 
 /*CENTRO BOTONES DE CANTIDAD*/
 .carrito .input-group{
-	margin-left: 14%;
+	margin-left: 33%;
 	  }
 
 /*---------------FIN CARRITO--------------------------------------------------------------------------------------------------*/
