@@ -493,15 +493,47 @@ height:0;
 }
 
 .misDatos .btn-primary{
-	margin-left: 20px;
+	margin-left: 10px;
 }
-
 
 /*SEPARO UN POCO EL CONTENEDOR DEL FOOTER*/
 .misDatos .container{
 	margin-bottom: 20px;
 }
 /*--------------FIN MIS DATOS-------------------------------------------------------------------------------------------*/
+
+/*--------------VENTANAS MIS DATOS--------------------------------------------------------------------------------------*/
+.modificacionDatos .modal-header h5{
+	color: white;
+	margin-left: 30%;
+	font-weight: lighter;
+	font-style: italic;	
+}
+
+.modificacionDatos .modal-header{
+
+	background-color: #2f312e;
+}
+
+.modificacionDatos .modal-footer{
+	background-color: #2f312e;
+}
+
+.modificacionDatosCon .modal-header  h5{
+	color: white;
+	margin-left: 25%;
+	font-weight: lighter;
+	font-style: italic;	
+}
+.modificacionDatosCon .modal-header{
+
+	background-color: #2f312e;
+}
+
+.modificacionDatosCon .modal-footer{
+	background-color: #2f312e;
+}
+/*--------------FIN VENTANAS MIS DATOS----------------------------------------------------------------------------------*/
 
 
 /*--------------MIS COMPRAS---------------------------------------------------------------------------------------------*/

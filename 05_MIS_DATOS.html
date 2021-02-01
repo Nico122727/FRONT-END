@@ -4,7 +4,7 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet"  href="css/estilos.css">
 	<link rel="stylesheet" href="iconos/css/all.min.css">
 
@@ -82,62 +82,67 @@
 							<h4>Mis datos</h4>
 							<div class="container">
 								<div class="col-md-12">
-									<form  action="">
-  										<div class="input-group mb-2 mr-sm-2">
-    										<div class="input-group-prepend">
-     											<div class="input-group-text"><i class="fas fa-user"></i></div>
-    										</div>
-    										<input type="text" class="form-control" id="nombre" placeholder="Ingrese nombre" value="Juan" required>
-  										</div>
-										<br>
+									
+									<form action="">
 										<div class="input-group mb-2 mr-sm-2">
     										<div class="input-group-prepend">
      											<div class="input-group-text"><i class="fas fa-user"></i></div>
     										</div>
-    										<input type="text" class="form-control" id="apellido" placeholder="Ingrese apellido"value="Perez" required>
+    										<input type="text" class="form-control" id="nombre" placeholder="Ingrese nombre" value="Juan" readonly>
+    										<button type="button" class="btn btn-primary"  data-toggle="modal" data-target="#ventanaNombre">Modificar</button>
   										</div>
-										<br>
+									</form>
+	
+									<form action="">	
 										<div class="input-group mb-2 mr-sm-2">
     										<div class="input-group-prepend">
      											<div class="input-group-text"><i class="fas fa-user"></i></div>
     										</div>
-    										<input type="text" class="form-control" id="usuario" placeholder="Ingrese usuario" value="Juan25" required>
+    										<input type="text" class="form-control" id="apellido" placeholder="Ingrese apellido"value="Perez" readonly>
+    										<button type="button" class="btn btn-primary" id="apellido" data-toggle="modal" data-target="#ventanaApellido">Modificar</button>
+  										</div>
+  									</form>
+
+									<form action="">
+										<div class="input-group mb-2 mr-sm-2">
+    										<div class="input-group-prepend">
+     											<div class="input-group-text"><i class="fas fa-user"></i></div>
+    										</div>
+    										<input type="text" class="form-control" id="usuario" placeholder="Ingrese usuario" value="Juan25" readonly>
+    										<button type="button" class="btn btn-primary" id="usuario" data-toggle="modal" data-target="#ventanaUsuario">Modificar</button>
   										</div>								
-										<br>
+									</form>
+
+									<form action="">
 										<div class="input-group mb-2 mr-sm-2">
     										<div class="input-group-prepend">
      											<div class="input-group-text"><i class="fas fa-at"></i></div>
     										</div>
-    										<input type="email" class="form-control" id="correo" placeholder="Ingrese email" value="Juan25@gmail.com" required>
+    										<input type="email" class="form-control" id="correo" placeholder="Ingrese email" value="Juan25@gmail.com" readonly>
+    										<button type="button" class="btn btn-primary" id="correo" data-toggle="modal" data-target="#ventanaEmail">Modificar</button>
   										</div>
-										<br>
+									</form>
+
+									<form action="">
 										<div class="input-group mb-2 mr-sm-2">
     										<div class="input-group-prepend">
      											<div class="input-group-text"><i class="fas fa-lock"></i></div>
     										</div>
-    										<input type="text" class="form-control" id="contraseña1" placeholder="Ingrese contraseña" value="Juan2525" required>
+    										<input type="password" class="form-control" id="contraseña" placeholder="Ingrese contraseña" value="Juan2525" readonly>
+    										<button type="button" class="btn btn-primary" id="contraseña" data-toggle="modal" data-target="#ventanaContraseña">Modificar</button>
   										</div>
-										<br>
-										<div class="input-group mb-2 mr-sm-2">
-    										<div class="input-group-prepend">
-     											<div class="input-group-text"><i class="fas fa-lock"></i></div>
-    										</div>
-    										<input type="text" class="form-control" id="contraseña2" placeholder="Ingrese contraseña" value="Juan2525" required>
-  										</div>
-										<br>
+									</form>
+
+									<form action="">
 										<div class="input-group mb-2 mr-sm-2">
     										<div class="input-group-prepend">
      											<div class="input-group-text"><i class="fas fa-phone"></i></div>
     										</div>
-    										<input type="text" class="form-control" id="telefono" placeholder="Ingrese Número de teléfono (opcional)"  value="3414576575" required>
-  										</div>	
-										<div class="form-group botones ">
-											<div class="input-group">
-												<button class="btn btn-danger cancelarmodificar ">Cancelar</button>
-												<button class="btn btn-primary modificar">Modificar</button>
-											</div>
-										</div>	
-									</form>
+    										<input type="text" class="form-control" id="telefono" placeholder="Ingrese Número de teléfono (opcional)"  value="3414576575" readonly>
+    										<button type="button" class="btn btn-primary" id="contraseña" data-toggle="modal" data-target="#ventanaTelefono">Modificar</button>
+  										</div>
+  									</form>
+  									<br>
 								</div>
 							</div>
 						</div>
@@ -146,6 +151,249 @@
 			</div>
     	</section>
     <!---------------------------FIN MIS DATOS------------------------------------------------------------------>
+
+    <!---------------------------VENTANA MODIFICACIÓN NOMBRE--------------------------------------------------->
+
+    	<section class="modificacionDatos">
+    		<div class="modal fade"   role="dialog" id="ventanaNombre"  >
+  				<div class="modal-dialog modal-dialog-centered"  role="document">
+    				<div class="modal-content">
+
+      					<div class="modal-header">
+				        	<h5 class="modal-title" id="exampleModalLabel">MODIFICAR NOMBRE</h5>
+				        	<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+				          		<span aria-hidden="true">&times;</span>
+				        	</button>
+				      	</div>
+
+						<div class="modal-body">
+						    <div class="container">
+
+						<form action="" class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+								<div class="form-group col-md-11">
+									<span><i class="fas fa-user"></i></span>
+									<label for="nombre">Nombre Actual:<b> Juan</b></label>
+									<input class="form-control" id="nombre" type="text" placeholder="Ingrese Nombre" required>
+								</div>
+							</div>
+						</div>
+
+
+				        	<div class="modal-footer">
+				        		<button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
+				        		<button class="btn btn-primary" id="nombre" >Confirmar</button>
+				        	</div>
+				      	</form>
+    				</div>
+ 			 	</div>
+			</div>
+    	</section>
+    <!---------------------------FIN VENTANA-------------------------------------------------------------------->
+
+    <!---------------------------VENTANA MODIFICACIÓN APELLIDO--------------------------------------------------->
+
+    	<section class="modificacionDatos">
+    		<div class="modal fade" id="ventanaApellido"  role="dialog"  >
+  				<div class="modal-dialog modal-dialog-centered"  role="document">
+    				<div class="modal-content">
+
+      					<div class="modal-header">
+				        	<h5 class="modal-title" id="exampleModalLabel">MODIFICAR APELLIDO</h5>
+				        	<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+				          		<span aria-hidden="true">&times;</span>
+				        	</button>
+				      	</div>
+
+						<div class="modal-body">
+						    <div class="container">
+
+						<form action="" class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+								<div class="form-group col-md-11">
+									<span><i class="fas fa-user"></i></span>
+									<label for="nombre">Apellido Actual:<b> Perez</b></label>
+									<input class="form-control" id="apellido" type="text" placeholder="Ingrese Apellido" required>
+								</div>
+							</div>
+						</div>
+
+
+				        	<div class="modal-footer">
+				        		<button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
+				        		<button class="btn btn-primary" id="apellido" >Confirmar</button>
+				        	</div>
+				      	</form>
+    				</div>
+ 			 	</div>
+			</div>
+    	</section>
+    <!---------------------------FIN VENTANA-------------------------------------------------------------------->    
+
+    <!---------------------------VENTANA MODIFICACIÓN USUARIO--------------------------------------------------->
+
+    	<section class="modificacionDatos">
+    		<div class="modal fade" id="ventanaUsuario"  role="dialog"  >
+  				<div class="modal-dialog modal-dialog-centered"  role="document">
+    				<div class="modal-content">
+
+      					<div class="modal-header">
+				        	<h5 class="modal-title" id="exampleModalLabel">MODIFICAR USUARIO</h5>
+				        	<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+				          		<span aria-hidden="true">&times;</span>
+				        	</button>
+				      	</div>
+
+						<div class="modal-body">
+						    <div class="container">
+
+						<form action="" class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+								<div class="form-group col-md-11">
+									<span><i class="fas fa-user"></i></span>
+									<label for="nombre">Usuario Actual:<b> Juan25</b></label>
+									<input class="form-control" id="usuario" type="text" placeholder="Ingrese Usuario" required>
+								</div>
+							</div>
+						</div>
+
+
+				        	<div class="modal-footer">
+				        		<button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
+				        		<button class="btn btn-primary" id="usuario" >Confirmar</button>
+				        	</div>
+				      	</form>
+    				</div>
+ 			 	</div>
+			</div>
+    	</section>
+    <!---------------------------FIN VENTANA-------------------------------------------------------------------->
+
+    <!---------------------------VENTANA MODIFICACIÓN EMAIL--------------------------------------------------->
+
+    	<section class="modificacionDatos">
+    		<div class="modal fade" id="ventanaEmail"  role="dialog"  >
+  				<div class="modal-dialog modal-dialog-centered"  role="document">
+    				<div class="modal-content">
+
+      					<div class="modal-header">
+				        	<h5 class="modal-title" id="exampleModalLabel">MODIFICAR EMAIL</h5>
+				        	<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+				          		<span aria-hidden="true">&times;</span>
+				        	</button>
+				      	</div>
+
+						<div class="modal-body">
+						    <div class="container">
+
+						<form action="" class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+								<div class="form-group col-md-11">
+									<span><i class="fas fa-user"></i></span>
+									<label for="nombre">Email Actual:<b> Juan25@gmail.com</b></label>
+									<input class="form-control" id="email" type="text" placeholder="Ingrese Email" required>
+								</div>
+							</div>
+						</div>
+
+
+				        	<div class="modal-footer">
+				        		<button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
+				        		<button class="btn btn-primary" id="email" >Confirmar</button>
+				        	</div>
+				      	</form>
+    				</div>
+ 			 	</div>
+			</div>
+    	</section>
+    <!---------------------------FIN VENTANA-------------------------------------------------------------------->
+
+    <!---------------------------VENTANA MODIFICACIÓN CONTRASEÑA--------------------------------------------------->
+
+    	<section class="modificacionDatosCon">
+    		<div class="modal fade" id="ventanaContraseña"  role="dialog"  >
+  				<div class="modal-dialog modal-dialog-centered"  role="document">
+    				<div class="modal-content">
+
+      					<div class="modal-header">
+				        	<h5 class="modal-title centrar" id="exampleModalLabel">MODIFICAR CONTRASEÑA</h5>
+				        	<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+				          		<span aria-hidden="true">&times;</span>
+				        	</button>
+				      	</div>
+
+						<div class="modal-body">
+						    <div class="container">
+
+						<form action="" class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+								<div class="form-group col-md-11">
+									<div class="input-group mb-2 mr-sm-2">
+    									<div class="input-group-prepend">
+     										<div class="input-group-text"><i class="fas fa-lock"></i></div>
+    									</div>
+    									<input type="password" class="form-control" id="contraseña" placeholder="Ingrese Contraseña Actual" required>
+  									</div>
+  									<div class="input-group mb-2 mr-sm-2">
+    									<div class="input-group-prepend">
+     										<div class="input-group-text"><i class="fas fa-lock"></i></div>
+    									</div>
+    									<input type="password" class="form-control" id="contraseña" placeholder="Ingrese Contraseña Nueva" required>
+  									</div>
+  									<div class="input-group mb-2 mr-sm-2">
+    									<div class="input-group-prepend">
+     										<div class="input-group-text"><i class="fas fa-lock"></i></div>
+    									</div>
+    									<input type="password" class="form-control" id="contraseña" placeholder="Repetir Contraseña" required>
+  									</div>
+								</div>
+							</div>
+						</div>
+
+
+				        	<div class="modal-footer">
+				        		<button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
+				        		<button class="btn btn-primary" id="contraseña" >Confirmar</button>
+				        	</div>
+				      	</form>
+    				</div>
+ 			 	</div>
+			</div>
+    	</section>
+    <!---------------------------FIN VENTANA-------------------------------------------------------------------->
+
+    <!---------------------------VENTANA MODIFICACIÓN TELÉFONO--------------------------------------------------->
+
+    	<section class="modificacionDatos">
+    		<div class="modal fade" id="ventanaTelefono"  role="dialog"  >
+  				<div class="modal-dialog modal-dialog-centered"  role="document">
+    				<div class="modal-content">
+
+      					<div class="modal-header">
+				        	<h5 class="modal-title" id="exampleModalLabel">MODIFICAR TELÉFONO</h5>
+				        	<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+				          		<span aria-hidden="true">&times;</span>
+				        	</button>
+				      	</div>
+
+						<div class="modal-body">
+						    <div class="container">
+
+						<form action="" class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+								<div class="form-group col-md-11">
+									<span><i class="fas fa-user"></i></span>
+									<label for="nombre">Teléfono Actual:<b> 3414254843</b></label>
+									<input class="form-control" id="Teléfono" type="text" placeholder="Ingrese Teléfono" required>
+								</div>
+							</div>
+						</div>
+
+
+				        	<div class="modal-footer">
+				        		<button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
+				        		<button class="btn btn-primary" id="Teléfono" >Confirmar</button>
+				        	</div>
+				      	</form>
+    				</div>
+ 			 	</div>
+			</div>
+    	</section>
+    <!---------------------------FIN VENTANA-------------------------------------------------------------------->    
 
     <!---------------------------FOOTER------------------------------------------------------------------------->		
     	<footer class=" mt-auto py-4 bg-dark text-white-50">
