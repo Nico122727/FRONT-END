@@ -797,10 +797,13 @@ height:0;
 
 /*COLOR A LOS ELEMENTOS DE LA TABLA*/
 .detalle-producto th{
+	vertical-align:middle;
 	color: #f3ed17;
 }
 
 .detalle-producto td{
+	vertical-align:middle;
+	max-width: 500px;
 	color: white;
 }
 
