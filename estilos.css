@@ -168,7 +168,7 @@ header .admin .navbar-nav{margin-left: 4.5%;}
 /*COLOR Y FORMATO DEL TÍTULO*/
 .filtros .modal-header h3{
 	color: white;
-	margin-left: 44%;
+	margin-left: 43.5%;
 	font-weight: lighter;
 	font-style: italic;	
 }
@@ -178,9 +178,10 @@ header .admin .navbar-nav{margin-left: 4.5%;}
 /*COLOR DEL FONDO Y REDONDEO LA PARTE CENTRAL*/
 .filtros .modal-content{
 	background-color: #eaebea;
-	border-radius: 55px;
-	
+	border-radius: 55px;	
 }
+
+
 /*COLOR DEL FONDO ENCABEZADO Y REDONDEO LA PARTE SUPERIOR*/
 .filtros .modal-header{
 	border-top-right-radius: 50px;
@@ -567,10 +568,12 @@ height:0;
 .misCompras th{
 	font-style: italic;
 	color: #f3ed17;
+	vertical-align:middle;
 }
 
 .misCompras td{
 	color: white;
+	vertical-align:middle;
 }
 
 .misCompras td a{
@@ -808,6 +811,109 @@ height:0;
 }
 
 /*---------------FIN DETALLE PRODUCTO----------------------------------------------------------------------------------------------*/
+
+
+/*--------------USUARIOS----------------------------------------------------------------------------------------------------*/
+/*Doy formato a los titulos de la tabla*/
+.usuarios th{
+	font-style: italic;
+	color: #f3ed17;
+	vertical-align:middle;
+}
+
+
+.usuarios td{
+	color: white;
+	vertical-align:middle;
+}
+
+.usuarios td a{
+	color: white;
+}
+
+.usuarios td a  .fa-times-circle{
+	color: red;
+	font-size: 25px;
+}
+
+.usuarios td a:hover{
+	color: #f3ed17;
+}
+
+.usuarios form {
+	margin-top: 20px;
+}
+
+/*LE DOY FORMATO AL FONDO DEL FORMULARIO*/
+.usuarios .tumb {
+	padding-top: 0px;
+	margin-top: 45px;
+	border-radius: 10px;
+	background-color:  #2f312e;
+	margin-bottom: 20px;
+}
+
+/*LE DOY FORMATO AL TITULO DEL FORMULARIO */
+.usuarios .tumb h4 {
+	text-align: center;
+	color: white; 
+	padding-top: 15px;
+	padding-bottom: 10px;
+	font-weight: lighter;
+	font-style: italic;	
+}
+
+/*SEPARO UN POCO EL CONTENEDOR DEL FOOTER*/
+.usuarios .container{
+	margin-bottom: 30px;
+}
+
+/*--------------FIN USUARIOS------------------------------------------------------------------------------------------------*/
+
+
+
+/*--------------VENTANA ELIMINAR USUARIO-----------------------------------------------------------------------------------*/
+.ventanasUsuario .modal-header h5{
+	color: white;
+	margin-left: 30%;
+	font-weight: lighter;
+	font-style: italic;	
+}
+
+.ventanasUsuario .modal-header{
+
+	background-color: #2f312e;
+}
+
+.ventanasUsuario .modal-body .centrar{
+	margin-bottom: 0px;
+	vertical-align: middle;
+	margin-left: 0px;
+}
+
+.ventanasUsuario .modal-body .alinear-izquierda{
+	margin-bottom: 15px;
+	vertical-align: middle;
+	margin-left: 0px;
+	text-align: left;
+}
+
+alinear-izquierda
+
+.ventanasUsuario .modal-body label{
+	margin-bottom: 0px;
+	vertical-align: middle;
+	margin-left: 35px;
+}
+
+.ventanasUsuario .modal-footer{
+	background-color: #2f312e;
+}
+
+
+/*--------------FIN VENTANA ELIMINAR USUARIO-------------------------------------------------------------------------------*/
+
+
 
 /*--------------NUEVO PRODUCTO------------------------------------------------------------------------------------------------*/
 

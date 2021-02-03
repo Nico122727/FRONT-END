@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html class="h-100">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+	<link rel="stylesheet"  href="css/estilos.css">
+	<link rel="stylesheet" href="iconos/css/all.min.css">
+
+	<title>USUARIO</title>
+</head>
+
+<body class="d-flex flex-column h-100">
+	<!---------------------------HEADER------------------------------------------------------------------------->
+		<header>
+			<nav class="nav sticky-top navbar navbar-expand-md my-nav">
+				
+				<a href="#" class="navbar-brand"><i class="fab fa-battle-net"></i>NB ELECTRÓNICA</a>
+				<!--Botón que aparece cuando la pagina se ve en dispositivos pequeños--> 	
+				<button class="navbar-toggler navbar-toggler-right custom-toggler" type="button" data-toggle="collapse" data-target="#navegacion" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    				<span class="navbar-toggler-icon"></span>
+  				</button>
+				<!--fin-->
+				
+					
+				<div class="admin navbar-collapse collapse justify-content-center" id="navegacion">
+						<ul class="navbar-nav">
+							<li class="nav-item ">
+								<a href="#" class=" nav-link ">HOME</a>
+							</li>
+						</ul>
+						<ul class="navbar-nav">
+							<li class="nav-item dropdown">
+						        <a class="nav-link dropdown-toggle" href="#" id="dropdown-2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">PRODUCTOS</a>
+						        <div class="dropdown-menu" aria-labelledby="dropdown-2">
+						          <a class="dropdown-item" href="#">TODOS</a>
+						          <div class="dropdown-divider"></div>
+						          <a class="dropdown-item" href="#">Notebooks</a>
+						          <a class="dropdown-item" href="#">Celulares</a>
+						          <a class="dropdown-item" href="#">Televisores</a>
+						          <a class="dropdown-item" href="#">Auriculares</a>
+						          <div class="dropdown-divider"></div>
+						          <a class="dropdown-item" href="#">AGREGAR PRODUCTO</a>
+						        </div>
+     						 </li>
+						</ul>
+						<ul class="navbar-nav">
+							<li class="nav-item ">
+								<a href="#" class="nav-link active">USUARIOS</a>
+							</li>
+						</ul>
+						<ul class="navbar-nav">
+							<li class="nav-item">
+								<a href="#" class="nav-link">VENTAS</a>
+							</li>
+						</ul>
+						<ul class="navbar-nav">
+							<li class="nav-item">
+								<a href="#" class="nav-link">SALIR</a>
+							</li>
+						</ul>
+		
+				</div>
+			</nav>
+		</header>
+    <!---------------------------FIN HEADER--------------------------------------------------------------------->
+
+
+    <!---------------------------USUARIOS----------------------------------------------------------------------->
+    	<section class="usuarios">
+    		<div class="container ">
+				<div class="row justify-content-center">
+					<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">	
+						<div class="thumbnail tumb">
+							<h4>Usuario</h4>
+							<div class="container">
+								<div class="col-md-12">
+									<div class="table-responsive">
+										<table class="table table-striped table-bordered table-hover table-condensed">
+											<tr class="success">
+												<th class="info text-center">Usuario</th>
+												<th class="text-center">Nombre</th>
+												<th class="text-center">Email</th>
+												<th class="text-center">Teléfono</th>
+												<th class="text-center">Dirección</th>
+												<th class="text-center">Tipo Usuario</th>
+												<th class="text-center">Eliminar</th><!--th resalta el nombre en negrita-->
+											</tr>
+											<tr>
+												<td class="info text-center linkusuar"> <a href="#" >Juan2525</a></td>
+												<td class="info text-center">Juan Perez</td>
+												<td class="info text-center">juan25@gmail.com</td>
+												<td class="info text-center">03414545454</td>
+												<td class="info text-center">Rosario oroño 1341</td>
+												<td class="info text-center"> <a href="" data-toggle="modal" data-target="#ventanaPrivilegios">Administrador</a></td>
+												<td class="info text-center"> <a href="#" data-toggle="modal" data-target="#ventanaEliminar"><i class="far fa-times-circle">	
+											</tr>
+										</table>
+										<div class="modal-footer justify-content-center">
+											<a href="" class="btn btn-secondary">Volver</a>
+							        	</div>	
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+    	</section>	
+    <!---------------------------FIN USUARIOS-------------------------------------------------------------------->
+
+        <!---------------------------MIS COMPRAS-------------------------------------------------------------------->
+    	<section class="misCompras">
+    		<div class="container ">
+				<div class="row justify-content-center">
+					<div class="col-xs-12 col-sm-12 col-md-10 col-lg-8">	
+						<div class="thumbnail tumb">
+							<h4>Compras</h4>
+							<div class="container">
+								<div class="col-md-12">
+									<div class="table-responsive">
+										<table class="table table-striped table-bordered table-hover table-condensed">
+											<tr class="success">
+												<th class="info text-center">Producto</th>
+												<th class="text-center">Fecha Compra</th>
+												<th class="text-center">Cantidad</th>
+												<th class="text-center">Estado</th><!--th resalta el nombre en negrita-->
+											</tr>
+											<tr>
+												<td class="info text-center"> <a href="#">Xiaomi Poco x3 128gb</a></td>
+												<td class="info text-center">16/07/2020</td>
+												<td class="info text-center">1</td>
+												<td class="info text-center">ENTREGADO</td>
+											</tr>
+											<tr>
+												<td class="info text-center"><a href="#">Macbook Air Retina 13"</a></td>
+												<td class="info text-center">16/08/2020</td>
+												<td class="info text-center">1</td>
+												<td class="info text-center">PENDIENTE</td>
+											</tr>
+
+											<tr class="active">
+												<td class="info text-center"> <a href="#">Auriculares Xiaomi Redmi Airdots</a></td>
+												<td class="info text-center">16/10/2020</td>
+												<td class="info text-center">3</td>
+												<td class="info text-center">PENDIENTE</td>
+											</tr>	
+										</table>
+
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+    	</section>
+    	
+    <!---------------------------FIN MIS COMPRAS---------------------------------------------------------------->	
+
+	<!------------------------VENTANA CONFIRMACION ELIMINAR USUARIO-------------------------------------------->
+    	<section class="ventanasUsuario">
+    		<div class="modal fade"   role="dialog" id="ventanaEliminar"  >
+  				<div class="modal-dialog modal-dialog-centered"  role="document">
+    				<div class="modal-content">
+
+      					<div class="modal-header">
+				        	<h5 class="modal-title" id="">ELIMINAR USUARIO</h5>
+				        	<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+				          		<span aria-hidden="true">&times;</span>
+				        	</button>
+				      	</div>
+
+						<div class="modal-body">
+						    <div class="container">
+
+						<form action="" class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+								<div class="form-group centrar col-md-11 ">
+									<label for="nombre">SE ELIMINARÁ EL USUARIO:<b> Juan2525</b></label>
+								</div>
+							</div>
+						</div>
+
+
+				        	<div class="modal-footer">
+				        		<button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
+				        		<button class="btn btn-danger" id="confirmar" >Confirmar</button>
+				        	</div>
+				      	</form>
+    				</div>
+ 			 	</div>
+			</div>
+    	</section>
+   	<!------------------------FIN VENTANA ELIMINAR USUARIO------------------------------------------------------->    
+
+	<!------------------------VENTANA CAMBIO PRIVILEGIOS USUARIO------------------------------------------------>
+    	<section class="ventanasUsuario">
+    		<div class="modal fade"   role="dialog" id="ventanaPrivilegios">
+  				<div class="modal-dialog modal-dialog-centered"  role="document">
+    				<div class="modal-content">
+
+      					<div class="modal-header">
+				        	<h5 class="modal-tittle" id="">CAMBIAR PRIVILEGIOS</h5>
+				        	<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+				          		<span aria-hidden="true">&times;</span>
+				        	</button>
+				      	</div>
+
+						<div class="modal-body">
+						    <div class="container">
+
+						<form action="" class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+							<div class="form-row justify-content-center">
+								<div class="form-group col-md-6 text-center ">
+									<label class="alinear-izquierda">Usuariol:<b> Juan2525</b></label>
+									<label for="inputState" class="centrar"> <b>Tipo Usuario</b> </label>
+		      						<select id="inputState" class="form-control">
+		        						<option>Administrador</option>
+		        						<option>Usuario</option>
+		      						</select>
+		    					</div>
+							</div>
+							</div>
+						</div>
+
+
+				        	<div class="modal-footer">
+				        		<button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
+				        		<button class="btn btn-danger" id="confirmar" >Confirmar</button>
+				        	</div>
+				      	</form>
+    				</div>
+ 			 	</div>
+			</div>
+    	</section>
+   	<!------------------------FIN VENTANA CAMBIAR PRIVILEGIOS USUARIO-------------------------------------------->
+
+
+
+
+	<!---------------------FOOTER-------------------------------------------------------------------------------->
+	
+		
+		<footer class=" mt-auto py-4 bg-dark text-white-50">
+		    <div class="container-fluid footer">
+		    	<div class="row">
+		    		<div class="col-md-6 text-center">
+		    			<p class="fp">FORMAS DE PAGO</p>
+		    			<img src="img/pago.png" alt="">
+		    		</div>
+
+		    		<div class="col-md-6 text-center">
+			    		<p>ZEBALLOS 1341-(2000)ROSARIO PROVINCIA DE SANTA FE-ARGENTINA</p>
+			    		<p>TELEFONOS: (0341) 4269112 | +54 (0341) 153-627705</p>
+			    	</div>
+		    	</div> 
+		    </div>
+	    </footer>
+
+    <!---------------------FIN FOOTER---------------------------------------------------------------------------->
+
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
