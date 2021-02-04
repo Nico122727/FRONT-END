@@ -4,7 +4,7 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet"  href="css/estilos.css">
 	<link rel="stylesheet" href="iconos/css/all.min.css">
 
@@ -65,12 +65,12 @@
 
 
     <!---------------------------REGISTRARSE-------------------------------------------------------------------->
-    	<section class="registro">
-    		<div class="container">
-				<div class="row">
+    	<section class="registro ">
+    		<div class="container ">
+				<div class="row justify-content-center">
 					<div class="col-xs-12 col-sm-12 col-md-8 col-lg-5">	
 						<div class="thumbnail tumb">
-							<h4>Completar todos los campos</h4>
+							<h4>Registrarse</h4>
 							<div class="container">
 								<div class="col-md-12">
 									<form  action="">
@@ -80,42 +80,78 @@
     										</div>
     										<input type="text" class="form-control" id="nombre" placeholder="Ingrese Nombre" required>
   										</div>
-										<br>
+										
 										<div class="input-group mb-2 mr-sm-2">
     										<div class="input-group-prepend">
      											<div class="input-group-text"><i class="fas fa-user"></i></div>
     										</div>
     										<input type="text" class="form-control" id="apellido" placeholder="Ingrese Apellido" required>
   										</div>
-										<br>
+										
 										<div class="input-group mb-2 mr-sm-2">
     										<div class="input-group-prepend">
      											<div class="input-group-text"><i class="fas fa-user"></i></div>
     										</div>
     										<input type="text" class="form-control" id="usuario" placeholder="Ingrese Nombre de Usuario" required>
-  										</div>								
-										<br>
+  										</div>
+										
+										<div class="input-group mb-2 mr-sm-2">
+    										<div class="input-group-prepend">
+     											<div class="input-group-text"><i class="fas fa-address-card"></i></i></div>
+    										</div>
+    										<input type="text" class="form-control" id="dni" placeholder="Ingrese Documento" required>
+  										</div>  																		
+										
+										<div class="container direccion">
+											<div class="row">
+												<div class="col-md-12">
+													<div class="modal-header justify-content-center">
+														<h5>Dirección</h5>
+													</div>
+													<div class="row fila">
+														<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+															<input type="text" class="form-control localidad " id="localidad" placeholder="Localidad" required>
+														</div>
+														<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+															<input type="text" class="form-control calle" id="calle" placeholder="Calle" required>
+														</div>	
+													</div>
+													<div class="row ">
+														<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 ">
+															<input type="text" class="form-control numero" id="numero" placeholder="Número" required>
+														</div>
+														<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+															<input type="text" class="form-control piso" id="piso" placeholder="Piso" >
+														</div>
+														<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 ">
+															<input type="text" class="form-control departamento" id="departamento" placeholder="Departamento">
+														</div>															
+													</div>		
+												</div>	
+											</div>
+										</div>
+																					
 										<div class="input-group mb-2 mr-sm-2">
     										<div class="input-group-prepend">
      											<div class="input-group-text"><i class="fas fa-at"></i></div>
     										</div>
     										<input type="email" class="form-control" id="correo" placeholder="Ingrese Email" required>
   										</div>
-										<br>
+										
 										<div class="input-group mb-2 mr-sm-2">
     										<div class="input-group-prepend">
      											<div class="input-group-text"><i class="fas fa-lock"></i></div>
     										</div>
     										<input type="password" class="form-control" id="contraseña1" placeholder="Ingrese Contraseña" required>
   										</div>
-										<br>
+										
 										<div class="input-group mb-2 mr-sm-2">
     										<div class="input-group-prepend">
      											<div class="input-group-text"><i class="fas fa-lock"></i></div>
     										</div>
     										<input type="password" class="form-control" id="contraseña2" placeholder="Ingrese nuevamente la Contraseña" required>
   										</div>
-										<br>
+										
 										<div class="input-group mb-2 mr-sm-2">
     										<div class="input-group-prepend">
      											<div class="input-group-text"><i class="fas fa-phone"></i></div>
@@ -123,8 +159,8 @@
     										<input type="text" class="form-control" id="telefono" placeholder="Ingrese Teléfono Ej: 341654321" required>
   										</div>	
 										<div class="form-group botones">
-											<div class="input-group">
-												<button class="btn btn-danger boton">Cancelar</button>
+											<div class="input-group justify-content-center">
+												<a href="C:\Users\Nico\Desktop\JAVA\02_REGISTRARSE.html" class="btn btn-danger boton">Cancelar</a>
 												<button class="btn btn-primary boton2">Registrarse</button>
 											</div>
 										</div>	
@@ -133,8 +169,15 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-xs-12 col-sm-12 col-md-5 col-lg-7">
-						<img src="img/Samsung-Galaxy-S20-Ultra-24K.jpg" class="imgreg" alt="">
+
+					
+						
+					<div class="col-xs-12 col-sm-12 col-md-8 col-lg-6 align-self-center">
+						<div class="card card-cascade narrower foto  ">
+							<div class="card-body">
+								<img src="img/Samsung-Galaxy-S20-Ultra-24K.jpg" class="imgreg  w-100 " alt="">
+							</div>				
+						</div>		
 					</div>
 				</div>
 			</div>
@@ -159,7 +202,7 @@
 		    </div>
 	    </footer>
 
-    <!---------------------FIN FOOTER----------------------------------------------------------------------------
+    <!---------------------FIN FOOTER------------------------------------------------------------------------->
 
     
 

@@ -321,9 +321,17 @@ header .admin .navbar-nav{margin-left: 4.5%;}
 	padding-top: 0px;
 	margin-top: 50px;
 	border-radius: 10px;
-	margin-left: 20px;
 	background-color:  #2f312e;
 }
+
+.registro .foto{
+	padding-top: 0px;
+
+	border-radius: 10px;
+	background-color: #2f312e;
+	max-height: 700px;
+}
+
 
 /*LE DOY FORMATO AL TITULO DEL FORMULARIO */
 .registro .tumb h4 {
@@ -337,10 +345,11 @@ header .admin .navbar-nav{margin-left: 4.5%;}
 /*CENTRO LOS BOTONES*/
 .registro .botones
 {	
-	display: inline-block;
 	margin-top: 15px;
-	margin-left: 22%;
+	padding-bottom: 15px;
 }
+
+
 
 .registro .btn-primary{
 	margin-left: 20px;
@@ -353,20 +362,61 @@ header .admin .navbar-nav{margin-left: 4.5%;}
 }
 /*LE DOY FORMATO A LA IMAGEN*/
 .registro .imgreg{
-	margin-top: 3px;
-	margin-left: 3%;
-	margin-top: 20%;
-	max-height: 800px;
+	margin-top: 0px;
+	margin-left: 0%;
+	max-height: 500px;
 	max-width: 500px;
-	border-radius: 20px;
+	border-radius: 0px;
+
 }
+
 
 /*SEPARO UN POCO EL CONTENEDOR DEL FOOTER*/
 .registro .container{
 	margin-bottom: 20px;
 }
 
+/*DOY FORMATO A LOS CAMPOS DIRECCION*/
+.registro .direccion{
+	background-color: #2f312e;
+	border-radius: 5px;
+	border: 1px solid white;
+	margin-top: 5px;
+	margin-bottom: 7px;
+}
 
+.registro .modal-header{
+	padding: 0px;
+}
+
+.registro .direccion h5{
+	color: white;
+	font-weight: lighter;
+	font-style: italic;
+	margin-bottom: 2px;
+}
+
+.registro .direccion .localidad{
+	margin-bottom: 5px;
+}
+.registro .direccion .calle{
+	margin-bottom: 5px;
+}
+.registro .direccion .numero{
+	margin-bottom: 5px;
+}
+
+.registro .direccion .piso{
+	margin-bottom: 5px;
+}
+.registro .direccion .departamento{
+	margin-bottom: 5px;
+}
+
+
+.registro .direccion .fila{
+	margin-top: 5px;
+}
 
 /*--------------FIN REGISTRO DE USUARIO---------------------------------------------------------------------------------*/
 
